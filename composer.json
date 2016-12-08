@@ -1,0 +1,34 @@
+{
+    "name": "naga0ka/flarum-ext-japanese",
+    "description": "Japanese language pack",
+    "type": "flarum-extension",
+    "keywords": ["locale"],
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "y.nagaoka",
+            "email": "y.nagaoka77@gmail.com"
+        }
+    ],
+    "extra": {
+	"branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+	"flarum-extension": {
+            "title": "Japanese",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "ja",
+            "title": "Japanese"
+        }
+    }
+}
